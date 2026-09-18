@@ -1,0 +1,22 @@
+pkgbase = iso2chd-gui
+	pkgdesc = Complete suite: Batch ISO to CHD CLI tool and standalone GUI companion
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/penguin-crate/iso2chd-gui
+	arch = x86_64
+	license = GPL-3.0-or-later
+	depends = python
+	depends = mame-tools
+	depends = coreutils
+	depends = gawk
+	depends = tk
+	source = iso2chd::git+https://github.com/penguin-crate/iso2chd.git
+	source = iso2chd-gui
+	source = iso2chd-gui.desktop
+	source = icon.png
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = iso2chd-gui

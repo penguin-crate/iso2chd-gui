@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=iso2chd GUI
+Comment=Graphical batch ISO to CHD conversion utility
+Exec=iso2chd-gui
+Icon=iso2chd-gui
+Terminal=false
+Categories=Utility;AudioVideo;DiscBurning;
