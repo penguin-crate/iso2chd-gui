@@ -1,0 +1,33 @@
+.TH ISO2CHD\-GUI 1 "September 2026" "2.0.2" "User Commands"
+.SH NAME
+iso2chd\-gui \- Graphical companion frontend for the iso2chd batch conversion suite
+.SH SYNOPSIS
+.B iso2chd-gui
+[\fB\-h\fR, \fB\-\-help\fR]
+.SH DESCRIPTION
+.B iso2chd-gui
+is a PyQt6-powered graphical user interface frontend designed for the
+.B iso2chd
+batch disk image conversion utility. It simplifies queueing multiple .iso, .bin/.cue, or directory targets, customizing conversion threads, managing codecs, switching dynamic color themes (including a Custom Color Wheel Studio), inspecting CHD headers, and tracking real-time storage savings.
+.SH FEATURES
+.TP
+\fBMulti-file Queue & Drag-and-Drop\fR
+Drag and drop individual files or complete directory hierarchies straight into the batch queue window.
+.TP
+\fBDynamic Theme Engine\fR
+Switch between curated color themes (Nord Dark, Dracula, Matrix Green, Catppuccin Mocha, Solarized Dark, Cyberpunk Neon) or build a custom palette with the built-in Color Studio.
+.TP
+\fBPerformance & Codec Tuning\fR
+Easily adjust multi-threading preferences, change conversion modes (Auto, CD, DVD), select compression codecs (ZLIB, LZMA), and verify integrity hashes on the fly.
+.TP
+\fBReal-time Progress & Telemetry\fR
+Monitor active conversions with live percentage updates, scrollable execution logs, and an overall storage savings calculator.
+.SH OPTIONS
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+Show Python/Qt command line help options and exit.
+.SH SEE ALSO
+.BR iso2chd (1),
+.BR chdman (1)
+.SH AUTHOR
+Abhimanyu Bhadauriya
